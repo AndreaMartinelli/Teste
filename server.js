@@ -72,7 +72,7 @@ app.get('/', function (req, res) {
       res.render('index.html', { pageCountMessage : count, dbInfo: dbDetails });
     });
   } else {
-    res.send("teste Andrea");
+    res.send("teste Gabi");
     //res.render('index.html', { pageCountMessage : null});
   }
 });
